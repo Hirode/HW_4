@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-24T04:46:28 MSK" name="Surefire suite" finished-at="2024-12-24T04:46:33 MSK" duration-ms="5279">
+    <groups>
+    </groups>
+    <test started-at="2024-12-24T04:46:28 MSK" name="Surefire test" finished-at="2024-12-24T04:46:33 MSK" duration-ms="5279">
+      <class name="WebTest">
+        <test-method signature="testDeleteUserNotFound()[pri:0, instance:WebTest@6283d8b8]" started-at="2024-12-24T04:46:28 MSK" name="testDeleteUserNotFound" description="Кейс с неудавшимся удалением пользователя" finished-at="2024-12-24T04:46:31 MSK" duration-ms="2436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUserNotFound -->
+        <test-method signature="testDeleteUserSuccess()[pri:0, instance:WebTest@6283d8b8]" started-at="2024-12-24T04:46:31 MSK" name="testDeleteUserSuccess" description="Кейс с успешным удалением пользователя" finished-at="2024-12-24T04:46:31 MSK" duration-ms="330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUserSuccess -->
+        <test-method signature="testGetUserNotFound()[pri:0, instance:WebTest@6283d8b8]" started-at="2024-12-24T04:46:31 MSK" name="testGetUserNotFound" description="Кейс с неудавшимся получением информации о пользователе" finished-at="2024-12-24T04:46:31 MSK" duration-ms="347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserNotFound -->
+        <test-method signature="testGetUserSuccess()[pri:0, instance:WebTest@6283d8b8]" started-at="2024-12-24T04:46:31 MSK" name="testGetUserSuccess" description="Кейс с успешным получением информации о пользователе" finished-at="2024-12-24T04:46:32 MSK" duration-ms="264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserSuccess -->
+        <test-method signature="testRegisterFailure()[pri:0, instance:WebTest@6283d8b8]" started-at="2024-12-24T04:46:32 MSK" name="testRegisterFailure" description="Кейс с ошибкой при регистрации" finished-at="2024-12-24T04:46:32 MSK" duration-ms="364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterFailure -->
+        <test-method signature="testRegisterSuccess()[pri:0, instance:WebTest@6283d8b8]" started-at="2024-12-24T04:46:32 MSK" name="testRegisterSuccess" description="Кейс с успешной регистрацией" finished-at="2024-12-24T04:46:32 MSK" duration-ms="355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterSuccess -->
+        <test-method signature="testUpdateUserNotFound()[pri:0, instance:WebTest@6283d8b8]" started-at="2024-12-24T04:46:32 MSK" name="testUpdateUserNotFound" description="Кейс с ошибкой изменения данных пользователя" finished-at="2024-12-24T04:46:33 MSK" duration-ms="752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUserNotFound -->
+        <test-method signature="testUpdateUserSuccess()[pri:0, instance:WebTest@6283d8b8]" started-at="2024-12-24T04:46:33 MSK" name="testUpdateUserSuccess" description="Кейс с успешным изменением данных пользователя" finished-at="2024-12-24T04:46:33 MSK" duration-ms="336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUserSuccess -->
+      </class> <!-- WebTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
