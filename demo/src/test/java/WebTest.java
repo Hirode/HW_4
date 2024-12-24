@@ -12,7 +12,7 @@ public void testRegisterSuccess() {
         .when()
         .post("https://reqres.in/api/register")
         .then()
-        .statusCode(200)
+        .statusCode(200) //Статус код ОК
         .extract().response();
 
     // Проверка модели ответа
