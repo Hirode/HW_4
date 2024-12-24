@@ -20,6 +20,7 @@ jobs:
         uses: actions/setup-java@v2
         with:
           java-version: '23'  # Установить JDK 23
+          distribution: 'adopt'
           
       - name: Directory Change
         run: cd demo
