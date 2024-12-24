@@ -21,12 +21,9 @@ jobs:
         with:
           java-version: '23'  # Установить JDK 23
           distribution: 'adopt'
-          
-      - name: Directory Change
-        run: cd demo
-        
+                  
       - name: Maven Test
-        run: mvn clean test  # Запуск теста
+        run: mvn -f demo/pom.xml clean test  # Запуск теста
 
       - name: Generate Allure Report
         run: mvn allure:report  # Генерация отчета Allure
