@@ -35,7 +35,7 @@ jobs:
           git config --global user.email "926695016@mail.ru"
           git checkout -b gh-pages
           # Копируем сгенерированный отчет в корень ветки
-          cp -r target/site/allure-maven-plugin/* .
+          cp -r demo/target/site/allure-maven-plugin/* .
           # Добавляем и коммитим изменения
           git add .
           git commit -m "Deploy Allure report"
