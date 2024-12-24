@@ -26,7 +26,7 @@ jobs:
         run: mvn -f demo/pom.xml clean test  # Запуск теста
 
       - name: Generate Allure Report
-        run: mvn allure:report  # Генерация отчета Allure
+        run: mvn -f demo/pom.xml allure:report  # Генерация отчета Allure
 
       - name: Allure Report on GitHub Pages
         run: |
